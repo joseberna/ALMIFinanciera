@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@theme {
+  --color-almi-blue-deep: #002B5B;
+  --color-almi-blue: #004D99;
+  --color-almi-cyan: #00F5FF;
+  --color-almi-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  scroll-behavior: smooth;
+}
